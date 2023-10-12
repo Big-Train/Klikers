@@ -1,0 +1,43 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#333333"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+<Button
+    android:id="@+id/incrementButton"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Zwiększ licznik"
+    android:backgroundTint="@color/black"/>
+
+<Button
+    android:id="@+id/resetButton"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Resetuj licznik"
+    android:backgroundTint="@color/black"/>
+
+    <Switch
+        android:id="@+id/modeSwitch"
+        android:layout_width="180dp"
+        android:layout_height="55dp"
+        android:text="Tryb działania"
+        android:checked="true"
+        android:trackTint="#3DBD19"
+        android:thumbTint="#3DBD19"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/counterTextView"
+        android:layout_width="79dp"
+        android:layout_height="wrap_content"
+        android:text="Licznik: 0"
+        android:textColor="#FFFFFF" />
+
+    </LinearLayout>
